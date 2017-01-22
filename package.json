@@ -1,0 +1,32 @@
+{
+  "name": "vide-module-blueprint",
+  "version": "0.9.1",
+  "description": "This is the base class for all VideApp modules, which inherit from this",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeethovensWerkstatt/vide-module-blueprint.git"
+  },
+  "keywords": [
+    "Edirom Online",
+    "VideApp",
+    "MEI"
+  ],
+  "author": "Johannes Kepper",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BeethovensWerkstatt/vide-module-blueprint/issues"
+  },
+  "homepage": "https://github.com/BeethovensWerkstatt/vide-module-blueprint#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "jest-cli": "^18.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
