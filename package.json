@@ -2,7 +2,7 @@
   "name": "vide-module-blueprint",
   "version": "0.9.1",
   "description": "This is the base class for all VideApp modules, which inherit from this",
-  "main": "index.js",
+  "main": "vide-module-blueprint.js",
   "scripts": {
     "test": "jest"
   },
@@ -22,11 +22,21 @@
   },
   "homepage": "https://github.com/BeethovensWerkstatt/vide-module-blueprint#readme",
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
     "babelify": "^7.3.0",
     "browserify": "^13.3.0",
+    "eslint": "^3.14.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
     "jest-cli": "^18.1.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "vide-protocol": "git+ssh://git@github.com/BeethovensWerkstatt/vide-protocol.git#dev"
   }
 }
