@@ -1,5 +1,4 @@
 import 'babel-polyfill';
-/*import 'VIDE_PROTOCOL';*/ //temporarily disabled
 
 /** Generic class for EoModules. */
 const EoModule = class EoModule {
@@ -349,4 +348,7 @@ const Request = class Request {
 
 };*/
 
-export { EoModule, Request };
+module.exports = { 
+    EoModule: EoModule, 
+    Request: Request 
+};
